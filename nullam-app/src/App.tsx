@@ -9,6 +9,7 @@ import AddEvent from "./components/event/AddEvent";
 import "./App.css";
 import EventParticipants from "./components/participant/EventParticipants";
 import ParticipantDetails from "./components/participant/ParticipantDetails";
+import EditEvent from "./components/event/EditEvent";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                       <Route index element={<Home />}/>
                       <Route path="/addevent" element={<AddEvent />}></Route>
                       <Route path="/event/:eventId" element={<EventParticipants></EventParticipants>}></Route>
+                      <Route path="/eventEdit/:eventId" element={<EditEvent></EditEvent>}></Route>
                       <Route path="/participant/:participantId" element={<ParticipantDetails></ParticipantDetails>}></Route>
                   </Routes>
               </main>

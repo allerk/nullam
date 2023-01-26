@@ -63,7 +63,15 @@ const EventParticipants = () => {
                 <div className="row align-items-md-stretch">
                     <div className="col-md-3"></div>
                     <div className="col-md-7">
-                        <h3 style={{color: "#0d6efd"}}>Osavõtjad</h3>
+                        {!eventState.data!.isHeld &&
+                            <div>
+                                <h3 style={{color: "#0d6efd"}}>Osavõtjad</h3>
+                                <Link type="button" className="btn btn-secondary" to={`/eventEdit/${eventId}`}>Edit event</Link>
+                            </div>
+                        }
+                        {eventState.data!.isHeld &&
+                            <h3 style={{color: "#0d6efd"}}>Osavõtjad</h3>
+                        }
                         <div className="row align-items-md-stretch formRowItem">
                             <div className="col-md-2 details">
                                 Ürituse nimi:

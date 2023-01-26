@@ -5,7 +5,7 @@ const AddEvent = () => {
     return (
         <div className="container-md">
             <BannerSmall pageName={"Ürituse lisamine"}></BannerSmall>
-            <AddEventForm></AddEventForm>
+            <AddEventForm pageName={"Ürituse lisamine"}></AddEventForm>
         </div>
 
     )
