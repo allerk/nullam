@@ -1,0 +1,13 @@
+.text-like-button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    text-align: left;
+}
+
+.participants{
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}

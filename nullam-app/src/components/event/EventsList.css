@@ -1,0 +1,39 @@
+.eventItem{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.addEvent{
+    /*font-style: italic;*/
+    /*font-family: cursive;*/
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+
+.eventsList{
+
+}
+
+.eventsContainer{
+    min-height: 250px;
+    position: relative;
+}
+
+.participants{
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
+
+.close-button {
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+}
+
+.details {
+    font-weight: bold;
+}

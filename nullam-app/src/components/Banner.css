@@ -1,0 +1,23 @@
+.bannerImage{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.banner {
+    background-color: #0d6efd;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.parent {
+    display: flex; /* enables flexbox layout */
+    align-items: center; /* centers elements along the cross axis (vertically) */
+    justify-content: center; /* centers elements along the main axis (horizontally) */
+    height: 100%; /* sets the height of the parent container */
+}
+
+.center-text {
+    text-align: center; /* centers the text inside the <p> element */
+}

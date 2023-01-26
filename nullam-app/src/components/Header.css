@@ -1,0 +1,30 @@
+header{
+    padding-top: 20px;
+}
+
+.navbar .navbar-nav .navbar-brand {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .navbar-brand:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.navbar .navbar-nav .navbar-brand {
+    padding: 0.6em;
+}
+.navbar .navbar-brand {
+    padding: 0 0.6em;
+}
+@media only screen and (min-width: 992px) {
+    .navbar {
+        padding: 0;
+    }
+    .navbar .navbar-nav .navbar-brand {
+        padding: 18px 0.7em;
+    }
+    .navbar .navbar-brand {
+        padding: 0 0.8em;
+    }
+}

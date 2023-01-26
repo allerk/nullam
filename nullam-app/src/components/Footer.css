@@ -1,0 +1,16 @@
+.footerColor{
+    background-color: #47494f;
+}
+
+footer{
+    padding-bottom: 20px;
+}
+
+.infoBlock{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.office{
+    font-weight: bold;
+}
