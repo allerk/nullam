@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  db:
+    container_name: nullam-database
+    image: postgres:latest
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-volume:/var/lib/postgresql/data
+
+volumes:
+  db-volume:
