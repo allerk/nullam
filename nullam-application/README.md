@@ -58,3 +58,6 @@ Contains all the ApiControllers and startup configurations. For data initializat
 ![alt text](https://github.com/allerk/nullam/blob/main/nullam-application/erd.png?raw=true)
 
 Event has one to many relation with Participant, as well as Person and Enterprise have one to many with Participant and PaymentType also. Basically Participant is a in-between-table between Event and Enterprise/Person.
+
+# My thoughts:
+To be honest, I know that it is better to replace some of the logic from the front-end to the back-end, like partial validation or some forbiddens to manage data seed. But as was earlier decided sending project at Friday. Basically all necessary requirements are done.
