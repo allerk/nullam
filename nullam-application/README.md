@@ -3,7 +3,7 @@
 ## Tech stack:
 - postgres:latest
 - .NET Core 7
-- as ide was used JetBrains Rider
+- as IDE was used JetBrains Rider
 
 ### To be able to start:
 1. use `docker compose up` create db
@@ -19,7 +19,7 @@ But you can configure auto migration, drop db in /WebApp/appsettings.json
 
 ### User manual
 1. User (there is no identity system) can create an event and manage it. It's forbidden for him to create an event in a past.
-2. User can create participant (enterprise or person) and added it to event. Person and Enterprise have different properties, so that in some cases validation might be different. They can't be deleted, only participant. It was did to use one person/enterprise in multiple events.
+2. User can create participant (enterprise or person) and added it to event. PaymentTypes are set initially, when app was started. To be able to add new, you can add them manually via e.g Postman. Person and Enterprise have different properties, so that in some cases validation might be different. They can't be deleted, only participant. It was did to use one person/enterprise in multiple events.
 3. User can change their details (not participant).
 4. User can delete participants from an event (but not person/enterprise).
 5. Person/Enterprise live forever from the moment they were made. They can be only changed. There is no opportunity to add another person/enterprise with same id/register code on client side. To controll it, there is speciall methods in related repos/services.
