@@ -25,3 +25,8 @@ Technologies/frameworks/libraries that was used:
 - All services interacting with the backend are there
 ### types
 - Fixes to use svg/jpeg images
+
+## If you are having troubles while running the application ->
+It might be you are using different back-end port on .net side, by default it set in src/services/httpclient.ts on 7142 
+
+
